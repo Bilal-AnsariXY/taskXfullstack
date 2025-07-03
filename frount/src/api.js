@@ -1,21 +1,3 @@
-// import axios from "axios";
-// import { API_URL } from "./utils"
-
-// export const CreateTask = async(taskObj)=>{
-//     const url = API_URL;
-    
-//     try{
-//         const result = await axios.post(url,taskObj);
-//         return result.data;
-//     }
-//     catch(err){
-//         console.error("Error creating task:", err.message);
-//         throw err;
-//     }
-// }
-
-
-
 
 import axios from "axios";
 import { API_URL } from "./utils";
